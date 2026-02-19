@@ -51,4 +51,14 @@ public class Dog implements Serializable {
             return dog;
         }
     }
+
+    @Override
+    public String toString() {
+        return "Dog{" +
+                "breed='" + breed + '\'' +
+                ", gender='" + gender + '\'' +
+                ", weight=" + weight +
+                ", name='" + name + '\'' +
+                '}';
+    }
 }
